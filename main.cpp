@@ -98,5 +98,6 @@ int main()
     int testSeconds = 5075; /*this should construct to 1:24:35*/
     Duration duration1 = Duration(testSeconds);
 
-    std::cout << "Input: 5075 seconds. Expected Result 1:24:35\n"; duration1.printDuration();
+    std::cout << "Input: 5075 seconds. Expected Result 1:24:35\n"; 
+    duration1.printDuration();
 }
